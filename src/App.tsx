@@ -1,7 +1,11 @@
+import Home from './pages/Home/index.jsx';
+import Navbar from './components/Navbar';
+
 export function App() {
   return (
-    <>
-      <h1>WeFit</h1>
-    </>
+    <div>
+      <Navbar />
+      <Home />
+    </div>
   )
 }
